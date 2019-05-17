@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+		let a1 = 0;
+		let a2 = 1;
+		let i,b;
+		let sum=1;
+		for(i=2;i<20;i++)
+		{
+			b = a1 + a2;
+			a1 = a2;
+			a2 = b;
+            sum = sum + a1 + a2;
+		}
+    document.write(sum);
+</script>
+</body>
+</html>

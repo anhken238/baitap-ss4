@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<p>
+		Bài 3: Hiển thị ra 20 số trong dãy fibonacci đầu tiên
+	</p>
+<script type="text/javascript">
+		let a1 = 0;
+		let a2 = 1;
+		let i,b;
+		let sum = 0;
+		document.write(a1 +"<br/>");
+		for(i=2;i<=20;i++)
+		{
+			b = a1 + a2;
+			document.write(b + "<br/>");
+			a1 = a2;
+			a2 = b;
+			sum = sum + b;
+		}
+		 
+		document.write("tổng 20 số fibonacci đầu tiên là: " +sum);
+</script>
+</body>
+</html>
